@@ -1,0 +1,82 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #494b64;
+}
+
+.main {
+    height: 100vh;
+}
+
+#description {
+    padding: 30px;
+}
+
+#description h1 {
+    color: #80a3db;
+    text-decoration: underline;
+}
+
+.return {
+    color: #eebddd;
+}
+
+#contact {
+    background-color: #494b64;
+}
+
+#name {
+    width: 100%;
+}
+
+#email {
+    width: 100%;
+}
+
+#message {
+    width: 100%;
+}
+
+#submission {
+    background-color: white;
+    margin: 2em;
+    padding: 1.5em;
+}
+
+#contact-info {
+    padding: 1.5em;
+    margin: 2em;
+    text-align: right;
+    color: #e3e0f3;
+}
+
+span {
+    color: red;
+    font-size: 1.5em;
+}
+
+.submit {
+    background-color: #494b64;
+    color: #e3e0f3;
+    border: 0;
+    width: 100%;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.submit:hover {
+    background-color: #eebddd;
+    color: #80a3db;
+
+}
+
+@media screen and (max-width: 780px) {
+    .main {
+        height: 100%;
+        width: 50%;
+    }
+}
